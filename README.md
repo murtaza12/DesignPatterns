@@ -3,6 +3,17 @@
 ## Overview
 This repository provides examples of commonly used design patterns in software development, implemented in C#. Each pattern is organized into its own folder with a `README.md` file explaining its purpose, structure, and usage. This project is intended to serve as a learning resource and a quick reference for developers.
 
+## Technology Stack
+
+- **Programming Language**: C# (Version 12)
+- **Framework**: .NET 8
+- **Unit Testing Framework**: xUnit
+- **Dependency Injection**: Built-in DI in .NET
+- **IDE**: Visual Studio 2022 (or any compatible C# IDE)
+- **Version Control**: Git
+- **UML Diagrams**: Generated using PlantUML or any UML tool
+- **Operating System**: Cross-platform support (Windows, macOS, Linux)
+
 ## Repository Structure
 Each folder represents a design pattern and includes:
 - **Code Implementation**: A C# example of the pattern.
