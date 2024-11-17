@@ -15,7 +15,7 @@ This example demonstrates the Abstract Factory pattern in a real-world scenario 
 ### Run Unit Tests
 
 ```bash
-dotnet test CarFactory.Tests/CarFactory.Tests.csproj
+dotnet test AbstractFactory.Test/AbstractFactory.Test.csproj
 ```
 
 ## Design Pattern Benefits
