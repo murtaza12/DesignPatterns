@@ -15,7 +15,7 @@ This example demonstrates the Factory pattern in a scenario where different type
 ### Run Unit Tests
 
 ``` bash
-dotnet test tests/CreationalDesignPatterns/Factory.Test/Factory.Test.csproj
+dotnet test tests/Creational/Factory.Test/Factory.Test.csproj
 ```
 
 ## Design Pattern Benefits
