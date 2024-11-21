@@ -1,8 +1,8 @@
-﻿using Adapter.Stripe;
+﻿using Adapter.ObjectAdapter.Stripe;
 
-namespace Adapter.Adapters;
+namespace Adapter.ObjectAdapter.Adapters;
 
-internal class StripeAdapter
+public class StripeAdapter : IPaymentProcessor
 {
     private readonly StripePayment _stripePayment;
 

@@ -1,8 +1,8 @@
-﻿using Adapter.Paypal;
+﻿using Adapter.ObjectAdapter.Paypal;
 
-namespace Adapter.Adapters;
+namespace Adapter.ObjectAdapter.Adapters;
 
-internal class PayPalAdapter
+public class PayPalAdapter : IPaymentProcessor
 {
     private readonly PayPalPayment _payPalPayment;
 
