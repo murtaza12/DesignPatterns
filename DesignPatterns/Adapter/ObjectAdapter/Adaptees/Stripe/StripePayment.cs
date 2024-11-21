@@ -1,6 +1,6 @@
-﻿namespace Adapter.Stripe;
+﻿namespace Adapter.ObjectAdapter.Stripe;
 
-internal class StripePayment
+public class StripePayment
 {
     public bool Charge(decimal amount)
     {

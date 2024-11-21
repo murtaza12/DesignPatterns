@@ -1,6 +1,6 @@
-﻿namespace Adapter.Paypal;
+﻿namespace Adapter.ObjectAdapter.Paypal;
 
-internal class PayPalPayment
+public class PayPalPayment
 {
     public string MakePayment(decimal amount)
     {
