@@ -2,13 +2,13 @@
 
 public class AdvancedMediaPlayer
 {
-    public void PlayVlc(string fileName)
+    public string PlayVlc(string fileName)
     {
-        Console.WriteLine($"Playing VLC file. Name: {fileName}");
+        return $"Playing VLC file. Name: {fileName}";
     }
 
-    public void PlayMp4(string fileName)
+    public string PlayMp4(string fileName)
     {
-        Console.WriteLine($"Playing MP4 file. Name: {fileName}");
+        return $"Playing MP4 file. Name: {fileName}";
     }
 }

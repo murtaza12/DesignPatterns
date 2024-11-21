@@ -49,6 +49,28 @@ This project demonstrates the Adapter design pattern with two real-world example
 
 ---
 
+# Comparison of Object Adapter and Class Adapter
+
+| Feature                        | **Object Adapter**                                                   | **Class Adapter**                                                    |
+|---------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------|
+| **Adapter Type**                | Uses composition (delegation) to adapt the interface of an object.    | Uses inheritance (extends) to adapt the interface of a class.        |
+| **Flexibility**                 | More flexible; can work with multiple classes and adaptees.          | Less flexible; limited to single inheritance in languages like C#.   |
+| **Reuse of Adaptee**            | Adaptee objects are passed into the adapter, and their behavior is reused. | Adaptee behavior is inherited by the adapter.                        |
+| **Extensibility**               | Easier to extend; new adapters can be created without modifying the existing ones. | Harder to extend due to inheritance limitations.                     |
+| **Use Case**                    | Best suited for scenarios where you need to adapt many different objects (e.g., payment gateways). | Best suited when you have a single class to adapt (e.g., a specific media player). |
+| **Example**                     | Integrating multiple payment gateways (e.g., PayPal, Stripe) into a single unified interface. | Adapting a media player that can play different file formats (e.g., VLC and MP4). |
+| **Code Complexity**             | More complex due to composition and delegation.                      | Simpler as it uses inheritance.                                      |
+| **Implementation**              | Adapts objects using interfaces and composition (i.e., wraps the adaptee object). | Adapts classes by inheriting the functionality of a specific class.   |
+| **Performance**                 | May incur a slight performance overhead due to composition.          | Typically more efficient due to direct inheritance.                  |
+| **Example Code Structure**      | Requires an interface and an adaptee class that is passed into the adapter. | Adapter class directly extends an adaptee class and overrides methods. |
+| **Error Handling**              | Easy to handle unsupported formats or actions.                      | Error handling is limited by the constraints of inheritance.         |
+| **Adapter**                     | A separate adapter class that implements the target interface and delegates calls to the adaptee. | A single adapter class that inherits from the adaptee and implements the target interface. |
+| **Adaptee**                     | The existing class whose interface is being adapted.                | The existing class whose functionality is being inherited by the adapter. |
+| **Target**                      | The interface that the client expects, which is provided by the adapter. | The interface that the client expects, which is provided by the adapter. |
+| **Client**                      | The class that interacts with the adapter to access the adapted functionality. | The class that interacts with the adapter to access the adapted functionality. |
+
+---
+
 ## Unit Testing
 
 ### Purpose
