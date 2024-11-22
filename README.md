@@ -61,6 +61,9 @@ Behavioral patterns focus on how classes and objects communicate and interact wi
 - **Strategy**: Enables selecting an algorithm at runtime.
 - **Template Method**: Defines the skeleton of an algorithm, with specific steps redefined by subclasses.
 - **Visitor**: Separates an algorithm from the objects on which it operates.
+---
+### Diagram
+![DesignPatterns drawio](https://github.com/user-attachments/assets/7cacb92d-969c-4972-9e51-6978850038a8)
 
 ## Contribution
 Contributions are welcome! Please follow the steps below to contribute:
